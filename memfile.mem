@@ -1,0 +1,3 @@
+e3a04000  // MOV R4, #0     (Inicializa R4 a 0) 
+e3a07007  // MOV R7, #6     (Mueve el valor 7 a R7)
+e7874100  // STR R7, [R4, #0x100] (Almacena R7 (que contiene 7) en la dirección 0x100)
